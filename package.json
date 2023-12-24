@@ -1,18 +1,29 @@
 {
   "name": "sesame-api",
-  "version": "0.1.5",
-  "description": "A package for use Sesame API",
+  "version": "1.1.5",
+  "description": "A package for use Sesame API in NodeJS",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naflouille-Creations/sesame-api-package.git"
+  },
   "keywords": [
     "api",
-    "starblast",
-    "sesame",
+    "Sesame",
+    "Sesame",
+    "Database",
+    "Naf",
     "Naflouille",
-    "Naflouille Creations"
+    "Naflouille",
+    "Creations"
   ],
-  "author": "Naflouille Creations",
-  "license": "ISC"
+  "author": "Naflouille-Creations",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naflouille-Creations/sesame-api-package/issues"
+  },
+  "homepage": "https://github.com/Naflouille-Creations/sesame-api-package#readme"
 }
