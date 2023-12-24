@@ -1,6 +1,6 @@
 {
   "name": "sesame-api",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A package for use Sesame API in NodeJS",
   "main": "main.js",
   "scripts": {
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/Naflouille-Creations/sesame-api-package/issues"
   },
-  "homepage": "https://github.com/Naflouille-Creations/sesame-api-package#readme"
+  "homepage": "https://naflouille-creations.com/"
 }
