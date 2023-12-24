@@ -55,14 +55,6 @@ The search function is normally `sesame.search.SearchInDatabase(KEYWORDS, TYPE);
 
 # Authors
 
-<<<<<<< HEAD
 [@naflouille](https://github.com/w0lfan)
 
 [@rithy](https://github.com/rithyn)
-    
-=======
-[@naflouille](http://www.github.com/w0lfan)
-
-[@rithy](http://www.github.com/rithyn)
-    
->>>>>>> 85c990b82c1443b423473eb77b38ac23344d446c
