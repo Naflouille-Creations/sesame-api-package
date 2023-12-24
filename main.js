@@ -1,3 +1,10 @@
+/*
+This is the single file, minified version of the Sesame runtime. It is the same as the old package, but with new functionality.
+
+©️ 2021-2023 Naflouille Creations - All Rights Reserved.
+*/
+
+
 var $sesame=$sesame||{};$sesame.scope={};$sesame.createTemplateTagFirstArg=function(a){return a.raw=a};$sesame.createTemplateTagFirstArgWithRaw=function(a,b){a.raw=b;return a};$sesame.arrayIteratorImpl=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}};$sesame.arrayIterator=function(a){return{next:$sesame.arrayIteratorImpl(a)}};
 $sesame.makeIterator=function(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];if(b)return b.call(a);if("number"==typeof a.length)return $sesame.arrayIterator(a);throw Error(String(a)+" is not an iterable or ArrayLike");};$sesame.ASSUME_ES5=!1;$sesame.ASSUME_NO_NATIVE_MAP=!1;$sesame.ASSUME_NO_NATIVE_SET=!1;$sesame.SIMPLE_FROUND_POLYFILL=!1;$sesame.ISOLATE_POLYFILLS=!1;$sesame.FORCE_POLYFILL_PROMISE=!1;$sesame.FORCE_POLYFILL_PROMISE_WHEN_NO_UNHANDLED_REJECTION=!1;
 $sesame.defineProperty=$sesame.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};$sesame.getGlobal=function(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");};$sesame.global=$sesame.getGlobal(this);
