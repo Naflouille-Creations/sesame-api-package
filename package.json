@@ -1,6 +1,6 @@
 {
   "name": "sesame-api",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A package for use Sesame API in NodeJS",
   "main": "main.js",
   "scripts": {
