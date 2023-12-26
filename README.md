@@ -5,7 +5,7 @@ This package was created by Naflouille Creations.
 
 ## Instructions for use
 
-*Documentation will be available on SesAPI shortly.
+*Documentation will be available on SesAPI shortly.*
 ### Installing the package
 To install this package, you first need to have NodeJS and NPM installed.
 Then you can install the package.
