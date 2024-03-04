@@ -1,6 +1,6 @@
 /*
 This is the single file, minified version of the Sesame runtime. It is the same as the old package, but with new functionality.
-©️ 2021-2023 Naflouille Creations - All Rights Reserved.
+©️ 2021-2024 Naflouille Creations - All Rights Reserved.
 
 Documentation is here : http://npmjs.com/sesame-api/ or https://github.com/Naflouille-Creations/sesame-api-package.git
 */
